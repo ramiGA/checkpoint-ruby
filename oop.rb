@@ -6,8 +6,9 @@
 # Type your solution directly below this line:
 class Animal name, greet
   attr_accessor :name
-  @name
-  @greet
+ def initialize
+  @name = name
+  @greet = greet
 
 
 
@@ -26,12 +27,13 @@ animal= Animal.new ("Pumba")
 # - A `king` (Boolean) attribute
 # - Only set the `king` attribute to `true` if the instance's `name` is "Simba"
 # Type your solution directly below this line:
-
-
+class Lion < Animal
+  def initialize
+@king = true
 
 
 
 # Question 9
 # Create a new instance of `Lion` with the name "Simba".
 # Type your solution directly below this line:
-lion= self.new ("Simba")
+lion= Lion.new ("Simba")
