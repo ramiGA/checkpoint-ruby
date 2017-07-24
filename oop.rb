@@ -4,6 +4,10 @@
 # - A `greet` instance method
 # - The ability to "get" and "set" `name`
 # Type your solution directly below this line:
+class Animal name, greet
+  attr_accessor :name
+  @name
+  @greet
 
 
 
@@ -11,7 +15,7 @@
 # Question 7
 # Create a new `Animal` instance with the name "Pumba".
 # Type your solution directly below this line:
-
+animal= Animal.new ("Pumba")
 
 
 
@@ -30,3 +34,4 @@
 # Question 9
 # Create a new instance of `Lion` with the name "Simba".
 # Type your solution directly below this line:
+lion= self.new ("Simba")
